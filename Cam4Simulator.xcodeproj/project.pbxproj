@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		181F592A1BA73FC600C2A32C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 181F59291BA73FC600C2A32C /* main.m */; };
+		181F592D1BA73FC600C2A32C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 181F592C1BA73FC600C2A32C /* AppDelegate.m */; };
+		181F59331BA73FC600C2A32C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181F59311BA73FC600C2A32C /* Main.storyboard */; };
+		181F59351BA73FC600C2A32C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 181F59341BA73FC600C2A32C /* Images.xcassets */; };
+		181F59381BA73FC600C2A32C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 181F59361BA73FC600C2A32C /* LaunchScreen.xib */; };
+		181F59441BA73FC600C2A32C /* Cam4SimulatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 181F59431BA73FC600C2A32C /* Cam4SimulatorTests.m */; };
+		181F594F1BA740A100C2A32C /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181F594E1BA740A100C2A32C /* CameraViewController.m */; };
+		181F59511BA7420B00C2A32C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181F59501BA7420B00C2A32C /* AVFoundation.framework */; };
+		181F59601BA7603400C2A32C /* NSThread+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 181F595F1BA7603400C2A32C /* NSThread+Helper.m */; };
+		4F42635EBD9294599549E3C1 /* libPods-Cam4Simulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 77AAFA969813E6A83F7AF551 /* libPods-Cam4Simulator.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		181F593E1BA73FC600C2A32C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 181F591C1BA73FC500C2A32C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 181F59231BA73FC500C2A32C;
+			remoteInfo = Cam4Simulator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		181F59241BA73FC500C2A32C /* Cam4Simulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cam4Simulator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		181F59281BA73FC500C2A32C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		181F59291BA73FC600C2A32C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		181F592B1BA73FC600C2A32C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		181F592C1BA73FC600C2A32C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		181F59321BA73FC600C2A32C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		181F59341BA73FC600C2A32C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		181F59371BA73FC600C2A32C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		181F593D1BA73FC600C2A32C /* Cam4SimulatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Cam4SimulatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		181F59421BA73FC600C2A32C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		181F59431BA73FC600C2A32C /* Cam4SimulatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cam4SimulatorTests.m; sourceTree = "<group>"; };
+		181F594D1BA740A100C2A32C /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
+		181F594E1BA740A100C2A32C /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
+		181F59501BA7420B00C2A32C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		181F595E1BA7603400C2A32C /* NSThread+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSThread+Helper.h"; sourceTree = "<group>"; };
+		181F595F1BA7603400C2A32C /* NSThread+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSThread+Helper.m"; sourceTree = "<group>"; };
+		77AAFA969813E6A83F7AF551 /* libPods-Cam4Simulator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Cam4Simulator.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7118370F041459EEC8868C5 /* Pods-Cam4Simulator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cam4Simulator.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cam4Simulator/Pods-Cam4Simulator.release.xcconfig"; sourceTree = "<group>"; };
+		F954097D96E308C350C0B577 /* Pods-Cam4Simulator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cam4Simulator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cam4Simulator/Pods-Cam4Simulator.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		181F59211BA73FC500C2A32C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181F59511BA7420B00C2A32C /* AVFoundation.framework in Frameworks */,
+				4F42635EBD9294599549E3C1 /* libPods-Cam4Simulator.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181F593A1BA73FC600C2A32C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		181F591B1BA73FC500C2A32C = {
+			isa = PBXGroup;
+			children = (
+				181F59501BA7420B00C2A32C /* AVFoundation.framework */,
+				181F59261BA73FC500C2A32C /* Cam4Simulator */,
+				181F59401BA73FC600C2A32C /* Cam4SimulatorTests */,
+				181F59251BA73FC500C2A32C /* Products */,
+				4780B8DAAAC6EFF3BCF6ADD4 /* Pods */,
+				CC30D0F5BB88C532DDBD62A0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		181F59251BA73FC500C2A32C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				181F59241BA73FC500C2A32C /* Cam4Simulator.app */,
+				181F593D1BA73FC600C2A32C /* Cam4SimulatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		181F59261BA73FC500C2A32C /* Cam4Simulator */ = {
+			isa = PBXGroup;
+			children = (
+				181F592B1BA73FC600C2A32C /* AppDelegate.h */,
+				181F592C1BA73FC600C2A32C /* AppDelegate.m */,
+				181F59311BA73FC600C2A32C /* Main.storyboard */,
+				181F594D1BA740A100C2A32C /* CameraViewController.h */,
+				181F594E1BA740A100C2A32C /* CameraViewController.m */,
+				181F595E1BA7603400C2A32C /* NSThread+Helper.h */,
+				181F595F1BA7603400C2A32C /* NSThread+Helper.m */,
+				181F59341BA73FC600C2A32C /* Images.xcassets */,
+				181F59361BA73FC600C2A32C /* LaunchScreen.xib */,
+				181F59271BA73FC500C2A32C /* Supporting Files */,
+			);
+			path = Cam4Simulator;
+			sourceTree = "<group>";
+		};
+		181F59271BA73FC500C2A32C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				181F59281BA73FC500C2A32C /* Info.plist */,
+				181F59291BA73FC600C2A32C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		181F59401BA73FC600C2A32C /* Cam4SimulatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				181F59431BA73FC600C2A32C /* Cam4SimulatorTests.m */,
+				181F59411BA73FC600C2A32C /* Supporting Files */,
+			);
+			path = Cam4SimulatorTests;
+			sourceTree = "<group>";
+		};
+		181F59411BA73FC600C2A32C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				181F59421BA73FC600C2A32C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4780B8DAAAC6EFF3BCF6ADD4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F954097D96E308C350C0B577 /* Pods-Cam4Simulator.debug.xcconfig */,
+				C7118370F041459EEC8868C5 /* Pods-Cam4Simulator.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CC30D0F5BB88C532DDBD62A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77AAFA969813E6A83F7AF551 /* libPods-Cam4Simulator.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		181F59231BA73FC500C2A32C /* Cam4Simulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 181F59471BA73FC600C2A32C /* Build configuration list for PBXNativeTarget "Cam4Simulator" */;
+			buildPhases = (
+				AD4ABDE4113997D21D377EE2 /* Check Pods Manifest.lock */,
+				181F59201BA73FC500C2A32C /* Sources */,
+				181F59211BA73FC500C2A32C /* Frameworks */,
+				181F59221BA73FC500C2A32C /* Resources */,
+				06F0FF6C48AA5D8C513F2270 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cam4Simulator;
+			productName = Cam4Simulator;
+			productReference = 181F59241BA73FC500C2A32C /* Cam4Simulator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		181F593C1BA73FC600C2A32C /* Cam4SimulatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 181F594A1BA73FC600C2A32C /* Build configuration list for PBXNativeTarget "Cam4SimulatorTests" */;
+			buildPhases = (
+				181F59391BA73FC600C2A32C /* Sources */,
+				181F593A1BA73FC600C2A32C /* Frameworks */,
+				181F593B1BA73FC600C2A32C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				181F593F1BA73FC600C2A32C /* PBXTargetDependency */,
+			);
+			name = Cam4SimulatorTests;
+			productName = Cam4SimulatorTests;
+			productReference = 181F593D1BA73FC600C2A32C /* Cam4SimulatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		181F591C1BA73FC500C2A32C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = MacManApp;
+				TargetAttributes = {
+					181F59231BA73FC500C2A32C = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					181F593C1BA73FC600C2A32C = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 181F59231BA73FC500C2A32C;
+					};
+				};
+			};
+			buildConfigurationList = 181F591F1BA73FC500C2A32C /* Build configuration list for PBXProject "Cam4Simulator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 181F591B1BA73FC500C2A32C;
+			productRefGroup = 181F59251BA73FC500C2A32C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				181F59231BA73FC500C2A32C /* Cam4Simulator */,
+				181F593C1BA73FC600C2A32C /* Cam4SimulatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		181F59221BA73FC500C2A32C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181F59331BA73FC600C2A32C /* Main.storyboard in Resources */,
+				181F59381BA73FC600C2A32C /* LaunchScreen.xib in Resources */,
+				181F59351BA73FC600C2A32C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181F593B1BA73FC600C2A32C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06F0FF6C48AA5D8C513F2270 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cam4Simulator/Pods-Cam4Simulator-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD4ABDE4113997D21D377EE2 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		181F59201BA73FC500C2A32C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181F59601BA7603400C2A32C /* NSThread+Helper.m in Sources */,
+				181F594F1BA740A100C2A32C /* CameraViewController.m in Sources */,
+				181F592D1BA73FC600C2A32C /* AppDelegate.m in Sources */,
+				181F592A1BA73FC600C2A32C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181F59391BA73FC600C2A32C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181F59441BA73FC600C2A32C /* Cam4SimulatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		181F593F1BA73FC600C2A32C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 181F59231BA73FC500C2A32C /* Cam4Simulator */;
+			targetProxy = 181F593E1BA73FC600C2A32C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		181F59311BA73FC600C2A32C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				181F59321BA73FC600C2A32C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		181F59361BA73FC600C2A32C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				181F59371BA73FC600C2A32C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		181F59451BA73FC600C2A32C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		181F59461BA73FC600C2A32C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		181F59481BA73FC600C2A32C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F954097D96E308C350C0B577 /* Pods-Cam4Simulator.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Cam4Simulator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		181F59491BA73FC600C2A32C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7118370F041459EEC8868C5 /* Pods-Cam4Simulator.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Cam4Simulator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		181F594B1BA73FC600C2A32C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Cam4SimulatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cam4Simulator.app/Cam4Simulator";
+			};
+			name = Debug;
+		};
+		181F594C1BA73FC600C2A32C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Cam4SimulatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cam4Simulator.app/Cam4Simulator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		181F591F1BA73FC500C2A32C /* Build configuration list for PBXProject "Cam4Simulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181F59451BA73FC600C2A32C /* Debug */,
+				181F59461BA73FC600C2A32C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		181F59471BA73FC600C2A32C /* Build configuration list for PBXNativeTarget "Cam4Simulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181F59481BA73FC600C2A32C /* Debug */,
+				181F59491BA73FC600C2A32C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		181F594A1BA73FC600C2A32C /* Build configuration list for PBXNativeTarget "Cam4SimulatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181F594B1BA73FC600C2A32C /* Debug */,
+				181F594C1BA73FC600C2A32C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 181F591C1BA73FC500C2A32C /* Project object */;
+}

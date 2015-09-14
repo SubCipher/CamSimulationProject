@@ -1,0 +1,1 @@
+NSTHREADBLOCKS_OTHER_LDFLAGS = -framework "Foundation"

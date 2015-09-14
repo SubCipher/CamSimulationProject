@@ -1,0 +1,10 @@
+PODS:
+  - NSThreadBlocks (0.0.1)
+
+DEPENDENCIES:
+  - NSThreadBlocks (~> 0.0)
+
+SPEC CHECKSUMS:
+  NSThreadBlocks: 691d2860b7b3ce721958d15c0042ad82af2eef47
+
+COCOAPODS: 0.38.2
