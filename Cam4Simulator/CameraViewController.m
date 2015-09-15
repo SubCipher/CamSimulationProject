@@ -16,7 +16,7 @@
 
 #import "CameraViewController.h"
 #import <AVFoundation/AVFoundation.h>
-#import "NSThread+Helper.h"
+
 
 
 @interface CameraViewController ()
@@ -27,6 +27,23 @@
 @property (nonatomic) AVCaptureVideoPreviewLayer *captureVideoPreviewLayer;
 @property (nonatomic) UILabel *noCameraInSimulatorMessage;
 
+
+@end
+
+
+@implementation NSThread (Helper)
++ (void)executeOnMainThread:(void (^)())block
+{
+    if (!block) return;
+    
+    if ([[NSThread currentThread] isMainThread]) {
+        block();
+    } else {
+        dispatch_sync(dispatch_get_main_queue(), ^ {
+            block();
+        });
+    }
+}
 
 @end
 
